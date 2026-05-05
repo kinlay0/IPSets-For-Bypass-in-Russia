@@ -5,6 +5,7 @@ import time
 
 ASN_LIST = {
     "Scaleway": "AS12876",
+    "Scaleway 2": "AS29447",
     "Hetzner": "AS24940",
     "Hetzner 2": "AS213230",
     "Hetzner 3": "AS212317",
@@ -49,7 +50,11 @@ ASN_LIST = {
     "Clouvider": "AS62240",
     "CreaNova": "AS51765",
     "Oracle Cloud": "AS31898",
+    "Oracle 1": "AS54253",
     "Oracle 2": "AS1219",
+    "Oracle 3": "AS6142",
+    "Oracle 4": "AS14544",
+    "Oracle 5": "AS20054",
     "Amazon": "AS16509",
     "Amazon 2": "AS14618",
     "Amazon 3": "AS8987",
