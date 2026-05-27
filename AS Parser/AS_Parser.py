@@ -150,7 +150,7 @@ for name, asn in ASN_LIST.items():
     except Exception as e:
         print(f"    Ошибка при получении {asn}: {e}")
 
-    time.sleep(1.0)  # чтобы не бомбить API
+    time.sleep(1.5)  # чтобы не бомбить API
 
 v4_agg = list(ipaddress.collapse_addresses(
     sorted(v4_all, key=lambda n: (int(n.network_address), n.prefixlen))
